@@ -175,7 +175,8 @@ For Vue.js we will use an add-on called ESLint, which allows us to verify the te
    -	Incorrect use of Vue.js Directives
    -	Violations of Vue.js Style Guide
 
-You can find the Plug-in by following the link and the installation manual so you can start working with this incredible tool and get a higher quality code
+You can find the Plug-in by following the link   https://github.com/vuejs/eslint-plugin-vue  
+And the installation manual  ( https://eslint.vuejs.org/user-guide/#installation ) so you can start working with this incredible tool and get a higher quality code
 
 											
 
