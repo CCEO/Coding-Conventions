@@ -164,14 +164,23 @@ num min(num a, num b) => ...
 
 If we sorround things like variable, method or type names in square brackets, then dartdoc looks up the name and links to the relevant API docs.
 Parentheses are optional, but can ake it clear when we are referring to a method or constructor
+
 ```php
 /// Throws a [StateError] if ...
 /// similar to [anotherMethod()], but ...
 ```
+
 To link to a member of specific class, use the class name and member name, separated by a dot
-` /// Similar to [Duration.inDays], but handles fractional days.`
+
+```php
+/// Similar to [Duration.inDays], but handles fractional days.`
+```
+
 The dot syntax can also be used to refer to named constructors. For the unnamed constructor, put parentheses after the class name:
-`/// To create a point, call [Point()] or use [Point.polar()] to ...`
+
+```php
+/// To create a point, call [Point()] or use [Point.polar()] to ...`
+```
 
 11. **DO** use prose to explain parameters, return values, and exceptions.
 
