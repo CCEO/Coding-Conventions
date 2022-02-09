@@ -3,7 +3,6 @@ Files Conventions
 
   	File names must be named in English
 
-    Create a file for each method
 Code Conventions
 
     -  Lines SHOULD be 80 characters or less.
